@@ -22,7 +22,7 @@ https://cs.android.com/android/platform/superproject/+/master:frameworks/base/se
 
 ## Features
 The following features are supported
-- [x] Decode a Pattern
+- [x] Recover/Crack a Pattern
 
 ## To-do list
 - [ ] Improve the Readme
