@@ -45,6 +45,6 @@ user@kali:~$ python3 pbreaker.py gesture.key
 
 > Windows Version
 ```
-user@kali:~$ python.exe pbreaker.py gesture.key
+C:\> python.exe pbreaker.py gesture.key
 [ CRACKED! ] 0124678
 ```
