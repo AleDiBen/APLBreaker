@@ -5,7 +5,7 @@ An Android Pattern Lock Breaker written in Python3.
 This Python3 helps you recover/crack the pattern lock of your Android device.\
 **Note:** _it works ONLY on rooted devices._
 
-Here we can inspect the original code related to the function "patternToHash()":\
+Here we can inspect the original code related to the Android function "patternToHash()":\
 https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/com/android/internal/widget/LockPatternUtils.java;l=1270
 
 Analyzing this function we can deduce that:
