@@ -48,3 +48,6 @@ user@kali:~$ python3 pbreaker.py gesture.key
 C:\> python.exe pbreaker.py gesture.key
 [ CRACKED! ] 0124678
 ```
+
+An example of cracked pattern.
+![Image of Cracked Pattern](https://github.com/AleDiBen/APLBreaker/blob/master/decoded.png)
