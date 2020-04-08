@@ -17,7 +17,7 @@ def usage():
     print(" /_/    \_\_|    |______|____/|_|  \___|\__,_|_|\_\___|_|    ")
     print("                                                             ")
     print("                                                   @AleDiBen ")
-    print("An Android Pattern Lock Cracker.\n")
+    print("An Android Pattern Lock Breaker.\n")
     print("USAGE:")
     print("      python pbreaker.py KEYFILE\n")
     print("where KEYFILE is a file with .key extension that contains the")
