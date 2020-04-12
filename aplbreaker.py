@@ -68,7 +68,7 @@ def crack(android_hash):
         # Generate all permutations of length i
         permutations = it.permutations(digit_list, i)
         for p in permutations:
-            # Convert each permutation digit to a specific byte
+            # Convert each digit to a specific byte
             # - 0 --> 0x00
             # - 1 --> 0x01
             # - 2 --> 0x02
