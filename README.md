@@ -6,7 +6,7 @@ This Python3 helps you recover/crack the pattern lock of your Android device.\
 **Note:** _it works ONLY on rooted devices._
 
 Here we can inspect the original code related to the Android function "patternToHash()":\
-https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/com/android/internal/widget/LockPatternUtils.java;l=1270
+https://android.googlesource.com/platform/frameworks/base/+/3553c296c0e0951a150f1783b2d0ff0d4bfe06cd/core/java/com/android/internal/widget/LockPatternUtils.java#239
 
 Analyzing this function we can deduce that:
 - the pattern is encrypted using SHA-1
@@ -14,7 +14,7 @@ Analyzing this function we can deduce that:
 - the digits represent the indices of a 3x3 matrix (the pattern lock grid)
 
 Here we can find the name of the file containing the encrypted pattern:\
-https://cs.android.com/android/platform/superproject/+/master:frameworks/base/services/core/java/com/android/server/locksettings/LockSettingsStorage.java;l=81
+https://android.googlesource.com/platform/frameworks/base/+/6b0623a/services/core/java/com/android/server/LockSettingsStorage.java#52
 
 ## Tested Devices
 - Xiaomi Redmi Note 5 Pro (whyred)
