@@ -6,7 +6,7 @@ This Python3 helps you recover/crack the pattern lock of your Android device.\
 **Note:** _it works ONLY on rooted devices._
 
 Here we can inspect the original code related to the Android function "patternToHash()":\
-https://android.googlesource.com/platform/frameworks/base/+/3553c296c0e0951a150f1783b2d0ff0d4bfe06cd/core/java/com/android/internal/widget/LockPatternUtils.java#239
+https://android.googlesource.com/platform/frameworks/base/+/3553c296c0e0951a150f1783b2d0ff0d4bfe06cd/core/java/com/android/internal/widget/LockPatternUtils.java#728
 
 Analyzing this function we can deduce that:
 - the pattern is encrypted using SHA-1
