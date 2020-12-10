@@ -35,7 +35,7 @@ The following features are supported
 
 ## Examples
 If you want to try the tool, below are the commands to run it on both Linux and Windows.
-I also included an example file extracted from my device named "pat.key" and a PNG image with the recovered/cracked sequence.
+I also included an example, using a file extracted from my device named "pat.key". At the bottom of the page you can see a PNG image with the recovered/cracked sequence.
 
 > Linux Version
 ```
