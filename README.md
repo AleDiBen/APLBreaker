@@ -39,13 +39,13 @@ I also included an example, using a file extracted from my device named "pat.key
 
 > Linux Version
 ```
-user@kali:~$ python3 aplbreaker.py gesture.key
+user@kali:~$ python3 aplbreaker.py pat.key
 [ CRACKED! ] 0124678
 ```
 
 > Windows Version
 ```
-C:\> python.exe aplbreaker.py gesture.key
+C:\> python.exe aplbreaker.py pat.key
 [ CRACKED! ] 0124678
 ```
 
